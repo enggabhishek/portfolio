@@ -5,7 +5,7 @@
     <h1 align="center">Data Engineer/ Machine Learning Engineer</h1>
 </p>
 <p align="center">
-    <em>Passionate Data Scientist & Software Engineer with a Master's in Analytics from Northeastern. Proficient in Python, Java, ML, led impactful teams at PowerSchool, certified problem solver.</em>
+    <em>Passionate Data Engineer & Software Engineer with a Master's in Analytics from Northeastern. Proficient in Python, Java, ML, led impactful teams at PowerSchool, certified problem solver.</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/GokuMohandas/mlops-course?style=flat&color=orange" alt="license">
