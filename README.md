@@ -19,6 +19,7 @@
 	<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
  	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
+	<img src="https://logowik.com/content/uploads/images/t_qiskit9093.logowik.com.webp" alt="Qiskit">
 	<br>
 	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="120" height="40" alt="MySQL">
 	<img src="https://miro.medium.com/v2/resize:fit:750/format:webp/0*epnKnkKuLx2RAajt" width="120" height="40" alt="PostgreSQL" style= "background-color: white;">
