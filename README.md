@@ -11,7 +11,7 @@
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
-	<img src="/common/logos/includes-mysql-167x86.png" alt="MySQL" width="167" height="86">
+	<img src="/common/logos/includes-mysql-167x86.png" alt="MySQL" width="400" height="250">
 </p>
 <p align="center">
 	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
