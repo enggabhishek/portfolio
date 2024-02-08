@@ -11,10 +11,9 @@
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
-	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
-	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 	<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=flat&logo=GitHub-Actions&logoColor=white" alt="GitHub%20Actions">
+	<img src="https://blogger.googleusercontent.com/img/a/AVvXsEi_9I286_KzezMNKQFQ4vAcHemjXth1jBqNN0IcH8i5gxFhiehXzsLzdRkUwL1MvpxUz6sqTUWstKHq1GYwwzf29l7FhrVxEO34R6bOEJFGQF4rwKwp-SDLYpAQ8i-mGFmA8cs_llp_-l7qaSzOP6ALWqsZmT2T3I2gP7x6P9JGP_YehGJdCN2T3Q=w640-h500" width="40" height="40"  alt="R-Code">
 	<br>
 	<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
@@ -24,6 +23,9 @@
 	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="120" height="40" alt="MySQL">
 	<img src="https://miro.medium.com/v2/resize:fit:750/format:webp/0*epnKnkKuLx2RAajt" width="120" height="40" alt="PostgreSQL" style= "background-color: white;">
 	<img src="https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png" width="30" height="40" alt="SQL-Server">
+	<br>
+	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
+	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 </p>
 <hr>
 
