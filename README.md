@@ -16,7 +16,7 @@
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
-	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default">
+	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="10">
 	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
