@@ -11,6 +11,7 @@
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
+	<img src="/common/logos/logo-mysql-170x115.png" alt="MySQL" border="0" width="170" height="115">
 	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
 	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
@@ -18,7 +19,6 @@
 	<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=flat&logo=GitHub-Actions&logoColor=white" alt="GitHub%20Actions">
 	<br>
 	<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
-	<img src="/common/logos/logo-mysql-170x115.png" alt="MySQL" border="0" width="170" height="115">
 	<img src="https://img.shields.io/badge/Ray-028CF0.svg?style=flat&logo=Ray&logoColor=white" alt="Ray">
 	<img src="https://img.shields.io/badge/MLflow-0194E2.svg?style=flat&logo=MLflow&logoColor=white" alt="MLflow">
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
