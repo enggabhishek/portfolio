@@ -21,7 +21,7 @@
  	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
 	<br>
 	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="120" height="40" alt="MySQL">
-	<img src="https://iconduck.com/icons/13161/postgresql-original-wordmark#" width="20" height="80" alt="PostgreSQL">
+	<img src="https://miro.medium.com/v2/resize:fit:750/format:webp/0*epnKnkKuLx2RAajt" width="20" height="80" alt="PostgreSQL">
 	<img src="https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png" width="30" height="40" alt="SQL-Server">
 </p>
 <hr>
