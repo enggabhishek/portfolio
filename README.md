@@ -8,11 +8,6 @@
     <em>Passionate Data Engineer & Software Engineer with a Master's in Analytics from Northeastern. Proficient in Python, Java, ML, led impactful teams at PowerSchool, certified problem solver.</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/last-commit/enggabhishek/mlops-course?style=flat&logo=git&logoColor=white&color=orange" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/enggabhishek/mlops-course?style=flat&color=orange" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/enggabhishek/mlops-course?style=flat&color=orange" alt="repo-language-count">
-<p>
-<p align="center">
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
