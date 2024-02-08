@@ -15,14 +15,16 @@
 </p>
 <p align="center">
 	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
-	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 	<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=flat&logo=GitHub-Actions&logoColor=white" alt="GitHub%20Actions">
 	<br>
 	<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
-	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="60" height="20" alt="MySQL">
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
+ 	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
+	<br>
+	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="60" height="20" alt="MySQL">
+	<img src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png" width="60" height="20" alt="PostgreSQL">
 </p>
 <hr>
 
