@@ -18,6 +18,8 @@
 	<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
  	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
+	<br>
+	<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" width="80" height="40"alt="TensorFlow">
 	<img src="https://logowik.com/content/uploads/images/t_qiskit9093.logowik.com.webp" width="80" height="40"alt="Qiskit">
 	<br>
 	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="120" height="40" alt="MySQL">
