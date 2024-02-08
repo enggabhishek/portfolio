@@ -23,8 +23,8 @@
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
  	<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn">
 	<br>
-	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="240" height="80" alt="MySQL">
-	<img src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png" width="60" height="80" alt="PostgreSQL">
+	<img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" width="120" height="40" alt="MySQL">
+	<img src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png" width="630" height="40" alt="PostgreSQL">
 </p>
 <hr>
 
