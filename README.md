@@ -13,7 +13,7 @@
 <p align="center">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 	<img src="https://seeklogo.com/images/J/java-logo-AC1B3887F3-seeklogo.com.png" width="80" height="40"alt="JAVA">
-	<img src="https://blogger.googleusercontent.com/img/a/AVvXsEi_9I286_KzezMNKQFQ4vAcHemjXth1jBqNN0IcH8i5gxFhiehXzsLzdRkUwL1MvpxUz6sqTUWstKHq1GYwwzf29l7FhrVxEO34R6bOEJFGQF4rwKwp-SDLYpAQ8i-mGFmA8cs_llp_-l7qaSzOP6ALWqsZmT2T3I2gP7x6P9JGP_YehGJdCN2T3Q=w640-h500" width="40" height="40"  alt="R-Code">
+	<img src="https://blogger.googleusercontent.com/img/a/AVvXsEi_9I286_KzezMNKQFQ4vAcHemjXth1jBqNN0IcH8i5gxFhiehXzsLzdRkUwL1MvpxUz6sqTUWstKHq1GYwwzf29l7FhrVxEO34R6bOEJFGQF4rwKwp-SDLYpAQ8i-mGFmA8cs_llp_-l7qaSzOP6ALWqsZmT2T3I2gP7x6P9JGP_YehGJdCN2T3Q=w640-h500" width="50" height="40"  alt="R-Code">
 	<br>
 	<img src="https://img.shields.io/badge/pandas-150458.svg?style=flat&logo=pandas&logoColor=white" alt="pandas">
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
