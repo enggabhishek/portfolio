@@ -8,7 +8,7 @@
     <em>Passionate Data Engineer & Software Engineer with a Master's in Analytics from Northeastern. Proficient in Python, Java, ML, led impactful teams at PowerSchool, certified problem solver.</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/GokuMohandas/mlops-course?style=flat&color=orange" alt="license">
+	<img alt="Eclipse Marketplace License" src="https://img.shields.io/eclipse-marketplace/l/:name">
 	<img src="https://img.shields.io/github/last-commit/GokuMohandas/mlops-course?style=flat&logo=git&logoColor=white&color=orange" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/GokuMohandas/mlops-course?style=flat&color=orange" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/GokuMohandas/mlops-course?style=flat&color=orange" alt="repo-language-count">
