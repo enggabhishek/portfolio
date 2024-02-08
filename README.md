@@ -1,8 +1,3 @@
-### Hi there 👋
-
-<!--
-**enggabhishek/enggabhishek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 <!DOCTYPE html>
 <html lang="en">
 
