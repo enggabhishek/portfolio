@@ -35,7 +35,7 @@
 ## 🔗 Quick Links
 
 > - [📍 Overview](#-overview)
-> - [🧩 Modules](#-modules)
+> - [🧩 Project Modules](#-modules)
 > - [👏 Acknowledgments](#-acknowledgments)
 
 ---
@@ -48,7 +48,7 @@ In this
 
 
 
-## 🧩 Modules
+## 🧩 Project Modules
 
 <details closed><summary>.</summary>
 
