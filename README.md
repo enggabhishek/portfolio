@@ -35,16 +35,7 @@
 ## 🔗 Quick Links
 
 > - [📍 Overview](#-overview)
-> - [📦 Features](#-features)
-> - [📂 Repository Structure](#-repository-structure)
 > - [🧩 Modules](#-modules)
-> - [🚀 Getting Started](#-getting-started)
->   - [⚙️ Installation](#️-installation)
->   - [🤖 Running mlops-course](#-running-mlops-course)
->   - [🧪 Tests](#-tests)
-> - [🛠 Project Roadmap](#-project-roadmap)
-> - [🤝 Contributing](#-contributing)
-> - [📄 License](#-license)
 > - [👏 Acknowledgments](#-acknowledgments)
 
 ---
@@ -55,19 +46,7 @@ In this
 
 ---
 
-## 📦 Features
 
-|    |   Feature         | Description |
-|----|-------------------|---------------------------------------------------------------|
-| ⚙️  | **Architecture**  | The project's architecture is based on a distributed workload using Ray and PyTorch. It includes components for data preprocessing, model training, evaluation, and deployment. The architecture also utilizes Ray Serve and FastAPI for serving the trained machine learning model. |
-| 🔩 | **Code Quality**  | The codebase follows consistent formatting rules with tools like Black, iSort, Flake8, and Pytest configured in the `pyproject.toml` file. The presence of pre-commit hooks and Makefile for formatting and linting tasks suggests a focus on code quality and style. |
-| 📄 | **Documentation** | The project includes extensive documentation, with Markdown files organized in a structured manner. The repository contains a `mkdocs` configuration and GitHub Actions workflow for automating the documentation generation and deployment process. |
-| 🔌 | **Integrations**  | Key integrations include MLflow for experiment tracking, Ray for distributed workload orchestration, and GitHub Actions for CI/CD pipelines. The project also integrates with external libraries such as Transformers, Snorkel, Cleanlab, and Hyperopt for various machine learning tasks. |
-| 🧩 | **Modularity**    | The codebase demonstrates modularity and reusability with separate modules for data processing, model training, evaluation, and deployment. Utility functions in the `madewithml/utils.py` module support data processing tasks. The use of Ray and PyTorch allows for scalable and adaptable architecture. |
-| 🧪 | **Testing**       | The project utilizes Pytest for testing, with coverage reporting through pytest-cov. The presence of the `tests` directory suggests a focused approach to testing. |
-| ⚡️  | **Performance**   | The project benefits from distributed workload execution using Ray, which can improve efficiency and resource utilization. However, a detailed assessment of performance would require benchmarking and analysis of the actual code. |
-| 🛡️ | **Security**      | The repository does not explicitly specify security measures, but the use of GitHub Actions and integration with external tools suggests a focus on secure software delivery practices. Additional measures can potentially be implemented, depending on the specific deployment and runtime environment. |
-| 📦 | **Dependencies**  | Key external libraries and dependencies include Ray, PyTorch, Transformers, Snorkel, Cleanlab, and Hyperopt. The `requirements.txt` file specifies the necessary packages for various purposes such as data preprocessing, model training, evaluation, and deployment. |
 
 ## 🧩 Modules
 
@@ -143,103 +122,6 @@ In this
 | [madewithml.ipynb](https://github.com/GokuMohandas/mlops-course/blob/master/notebooks/madewithml.ipynb) | The code snippet is part of the parent repository's architecture and performs critical features. Its main role includes data preprocessing and feature engineering for machine learning models. It contributes to the overall MLOps course and is linked to datasets and deployment configurations.                           |
 
 </details>
-
----
-
-## 🚀 Getting Started
-
-***Requirements***
-
-Ensure you have the following dependencies installed on your system:
-
-* **Python**: `version x.y.z`
-
-### ⚙️ Installation
-
-1. Clone the mlops-course repository:
-
-```sh
-git clone https://github.com/GokuMohandas/mlops-course
-```
-
-2. Change to the project directory:
-
-```sh
-cd mlops-course
-```
-
-3. Install the dependencies:
-
-```sh
-pip install -r requirements.txt
-```
-
-### 🤖 Running mlops-course
-
-Use the following command to run mlops-course:
-
-```sh
-python main.py
-```
-
-### 🧪 Tests
-
-To execute tests, run:
-
-```sh
-pytest
-```
-
----
-
-## 🛠 Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here are several ways you can contribute:
-
-- **[Submit Pull Requests](https://github.com/GokuMohandas/mlops-course/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/GokuMohandas/mlops-course/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/GokuMohandas/mlops-course/issues)**: Submit bugs found or log feature requests for Mlops-course.
-
-<details closed>
-    <summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-   ```sh
-   git clone https://github.com/GokuMohandas/mlops-course
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-
-Once your PR is reviewed and approved, it will be merged into the main branch.
-
-</details>
-
----
-
-## 📄 License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
