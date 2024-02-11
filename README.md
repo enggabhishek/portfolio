@@ -51,7 +51,7 @@
 
 ## 📍 Overview
 
-The mlops-course project is a comprehensive codebase that aims to provide an end-to-end solution for implementing and managing machine learning operations (MLOps) pipelines. It offers functionalities for data preprocessing, model training, evaluation, and deployment. The project utilizes tools like Ray Serve, PyTorch, and MLflow to serve and deploy trained models, perform hyperparameter tuning experiments, train models on distributed workloads, evaluate model performance, and handle data processing tasks. By combining these features, the project simplifies and streamlines the process of developing and managing machine learning models, enabling practitioners to focus on the core aspects of their projects.
+In this 
 
 ---
 
@@ -68,55 +68,6 @@ The mlops-course project is a comprehensive codebase that aims to provide an end
 | ⚡️  | **Performance**   | The project benefits from distributed workload execution using Ray, which can improve efficiency and resource utilization. However, a detailed assessment of performance would require benchmarking and analysis of the actual code. |
 | 🛡️ | **Security**      | The repository does not explicitly specify security measures, but the use of GitHub Actions and integration with external tools suggests a focus on secure software delivery practices. Additional measures can potentially be implemented, depending on the specific deployment and runtime environment. |
 | 📦 | **Dependencies**  | Key external libraries and dependencies include Ray, PyTorch, Transformers, Snorkel, Cleanlab, and Hyperopt. The `requirements.txt` file specifies the necessary packages for various purposes such as data preprocessing, model training, evaluation, and deployment. |
-
-
----
-
-## 📂 Repository Structure
-
-```sh
-└── mlops-course/
-    ├── .github
-    │   └── workflows
-    ├── LICENSE
-    ├── Makefile
-    ├── README.md
-    ├── datasets
-    │   ├── dataset.csv
-    │   ├── holdout.csv
-    │   ├── projects.csv
-    │   └── tags.csv
-    ├── deploy
-    │   ├── cluster_compute.yaml
-    │   ├── cluster_env.yaml
-    │   ├── jobs
-    │   └── services
-    ├── docs
-    │   ├── index.md
-    │   └── madewithml
-    ├── madewithml
-    │   ├── config.py
-    │   ├── data.py
-    │   ├── evaluate.py
-    │   ├── models.py
-    │   ├── predict.py
-    │   ├── serve.py
-    │   ├── train.py
-    │   ├── tune.py
-    │   └── utils.py
-    ├── mkdocs.yml
-    ├── notebooks
-    │   ├── benchmarks.ipynb
-    │   └── madewithml.ipynb
-    ├── pyproject.toml
-    ├── requirements.txt
-    └── tests
-        ├── code
-        ├── data
-        └── model
-```
-
----
 
 ## 🧩 Modules
 
