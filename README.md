@@ -83,7 +83,7 @@ The repositories dedicated to Data Analytics projects using the R language and o
 
 ## 👏 Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+- TBA
 
 [**Return**](#-quick-links)
 
