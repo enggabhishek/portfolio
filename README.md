@@ -50,22 +50,18 @@ The repositories dedicated to Data Analytics projects using the R language and o
 
 ## 🧩 Project_Modules
 
-<details closed><summary>deploy</summary>
+<details closed><summary>VirtualClassroom</summary>
 
-| File                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
+| Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
 | ---                                                                                                   | ---                                                                                                                                                                                                                                                                                                      |
-| [VirtualClassroom](https://github.com/enggabhishek/VirtualClassroom)                                  | The Virtual Classroom project employs a robust technological stack, featuring JAVA, J2EE, HTML, JSP, MySQL, Hibernate, and Spring. This comprehensive solution ensures a flexible and accessible learning environment, promoting dynamic student-teacher interactions. |
-| [cluster_compute.yaml](https://github.com/GokuMohandas/mlops-course/blob/master/deploy/cluster_compute.yaml) | The code snippet `deploy/cluster_compute.yaml` contains the configuration settings for the cluster computation in the parent repository's architecture. It specifies the cloud provider, region, instance types, minimum and maximum workers, storage volume size, and tags for the cluster nodes. |
-
+| (https://github.com/enggabhishek/VirtualClassroom)                                                    | The Virtual Classroom project employs a robust technological stack, featuring JAVA, J2EE, HTML, JSP, MySQL, Hibernate, and Spring. This comprehensive solution ensures a flexible and accessible learning environment, promoting dynamic student-teacher interactions. |
 </details>
 
-<details closed><summary>deploy.jobs</summary>
+<details closed><summary>R Scripts Overview</summary>
 
-| File                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
+| Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
 | ---                                                                                                   | ---                                                                                                                                                                                                                                                                                                      |
-| [workloads.yaml](https://github.com/GokuMohandas/mlops-course/blob/master/deploy/jobs/workloads.yaml) | This code snippet, located in `deploy/jobs/workloads.yaml`, defines the configuration for a workload in the parent repository's architecture. It specifies the project ID, cluster environment, compute configuration, runtime environment, and other parameters necessary for the workload's execution. |
-| [workloads.sh](https://github.com/GokuMohandas/mlops-course/blob/master/deploy/jobs/workloads.sh)     | This code snippet is responsible for executing different tasks, such as testing data/code, training a model, evaluating performance, and saving results to S3. It sets up necessary environment variables, runs pytest, executes training and evaluation scripts, and performs S3 uploads.               |
-
+|(https://github.com/enggabhishek/Analytics) | Projects cover Chi-Square ANOVA, Linear Regression with fish and housing datasets, Hypothesis Testing on education/sleep, and Netflix data with Regularization Techniques. |
 </details>
 
 <details closed><summary>deploy.services</summary>
