@@ -50,20 +50,11 @@ The repositories dedicated to Data Analytics projects using the R language and o
 
 ## 🧩 Project_Modules
 
-<details closed><summary>.</summary>
-
-| File                                                                                          | Summary                                                                                                                                                                                                                                                                                                                               
-| [requirements.txt](https://github.com/GokuMohandas/mlops-course/blob/master/requirements.txt) | The code snippet in the `requirements.txt` file specifies the necessary dependencies for the parent repository. It lists various packages for different purposes such as data preprocessing, model training, evaluation, and deployment.                                                                                                                                                     |
-| [Makefile](https://github.com/GokuMohandas/mlops-course/blob/master/Makefile)                 | The Makefile in the repository is responsible for executing styling and cleaning tasks. It provides commands for code formatting, linting, and removing unnecessary files.                                                                                                                                                                                                                   |
-| [pyproject.toml](https://github.com/GokuMohandas/mlops-course/blob/master/pyproject.toml)     | This code snippet is located in the `pyproject.toml` file of the repository. It sets up linting, formatting, and testing configurations for the project, including tools like Black, iSort, Flake8, and Pytest. It defines the file formatting rules and excludes certain directories from linting. The code ensures that the codebase follows consistent formatting and is properly tested. |
-
-</details>
-
 <details closed><summary>deploy</summary>
 
-| File                                                                                                         | Summary                                                                                                                                                                                                                                                                                            |
-| ---                                                                                                          | ---                                                                                                                                                                                                                                                                                                |
-| [cluster_env.yaml](https://github.com/GokuMohandas/mlops-course/blob/master/deploy/cluster_env.yaml)         | The code snippet in `deploy/cluster_env.yaml` defines the environment configuration for the parent repository. It specifies the base image, environment variables, Debian packages, Python packages, and post-build commands.                                                                      |
+| Name                                                                                                         							 | Summary                                                                                                                                                                                                                                                                                            |
+| ---                                                                                                          | ---                                             |
+| [VirtualClassroom](https://github.com/GokuMohandas/mlops-course/blob/master/deploy/cluster_env.yaml](https://github.com/enggabhishek/VirtualClassroom)         | The code snippet in `deploy/cluster_env.yaml` defines the environment configuration for the parent repository. It specifies the base image, environment variables, Debian packages, Python packages, and post-build commands.                                                                      |
 | [cluster_compute.yaml](https://github.com/GokuMohandas/mlops-course/blob/master/deploy/cluster_compute.yaml) | The code snippet `deploy/cluster_compute.yaml` contains the configuration settings for the cluster computation in the parent repository's architecture. It specifies the cloud provider, region, instance types, minimum and maximum workers, storage volume size, and tags for the cluster nodes. |
 
 </details>
