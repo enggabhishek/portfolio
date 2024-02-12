@@ -42,7 +42,7 @@
 
 ## 📍 Overview
 
-The repositories include crucial frameworks such as Spring, Hibernate, and testing tools to build a well-organized Java web project. Additionally, there are repositories dedicated to Data Analytics projects using the R language and others focused on Data Science projects using Python.
+The repositories dedicated to Data Analytics projects using the R language and others focused on Data Science projects using Python language. Additionally, there are repositories include crucial frameworks such as Spring, Hibernate, and testing tools to build a well-organized Java web project.
 
 ---
 
