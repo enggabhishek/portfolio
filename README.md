@@ -72,7 +72,7 @@ The repositories dedicated to Data Analytics projects using the R language and o
 
 </details>
 
-<details ><summary>Pattern Detection</summary>
+<details closed><summary>Pattern Detection</summary>
 
 | Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---                                                                                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
