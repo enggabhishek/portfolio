@@ -82,7 +82,7 @@ The repositories dedicated to Data Analytics projects using the R language and o
 <details closed><summary>IPEDSLLM</summary>
 | Location | Summary |
 | --- | --- |
-| [enggabhishek/ipedsllm](https://github.com/enggabhishek/ipedsllm) | Enhanced . |
+|--- [enggabhishek/ipedsllm](https://github.com/enggabhishek/ipedsllm) |--- Enhanced . |
 
 
 ---
