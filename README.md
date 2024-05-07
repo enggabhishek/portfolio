@@ -36,7 +36,6 @@
 
 > - [📍 Overview](#-overview)
 > - [🧩 Project_Modules](#-Project_Modules)
-> - [👏 Acknowledgments](#-acknowledgments)
 
 ---
 
