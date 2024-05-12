@@ -56,11 +56,11 @@ The repositories dedicated to Data Analytics projects using the R language and o
 | https://github.com/enggabhishek/ipedsllm | Enhanced Text-to-SQL problem by leveraging Transformer architecture based on RAG pipeline in large language models (LLMs). Developed efficient and accurate Text-to-SQL infrastructure using Transformer-based LLMs, verified through rigorous testing. Deployed Langchain and LlamaIndex to create lightweight, scalable LLM applications for instant Information Retrieval and Academic Support.  |
 </details>
 
-<details closed><summary>VirtualClassroom</summary>
+<details closed><summary>Pattern Detection</summary>
 
-| Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
-| ---                                                                                                   | ---                                                                                                                                                                                                                                                                                                      |
-| https://github.com/enggabhishek/VirtualClassroom                                                    | The Virtual Classroom project employs a robust technological stack, featuring JAVA, J2EE, HTML, JSP, MySQL, Hibernate, and Spring. This comprehensive solution ensures a flexible and accessible learning environment, promoting dynamic student-teacher interactions. |
+| Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---                                                                                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| https://github.com/enggabhishek/Out-of-Pattern-Detection | Python-based project using Jupyter environments and libraries for December 2022 HTTP log analysis on DocDigitizer site, emphasizing key components and technologies.  |
 </details>
 
 <details closed><summary>R Scripts Overview</summary>
@@ -78,12 +78,15 @@ The repositories dedicated to Data Analytics projects using the R language and o
 
 </details>
 
-<details closed><summary>Pattern Detection</summary>
+<details closed><summary>VirtualClassroom</summary>
 
-| Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ---                                                                                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| https://github.com/enggabhishek/Out-of-Pattern-Detection | Python-based project using Jupyter environments and libraries for December 2022 HTTP log analysis on DocDigitizer site, emphasizing key components and technologies.  |
+| Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
+| ---                                                                                                   | ---                                                                                                                                                                                                                                                                                                      |
+| https://github.com/enggabhishek/VirtualClassroom                                                    | The Virtual Classroom project employs a robust technological stack, featuring JAVA, J2EE, HTML, JSP, MySQL, Hibernate, and Spring. This comprehensive solution ensures a flexible and accessible learning environment, promoting dynamic student-teacher interactions. |
 </details>
+
+
+
 
 
 [**Return**](#-quick-links)
