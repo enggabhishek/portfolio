@@ -63,6 +63,13 @@ The repositories dedicated to Data Analytics projects using the R language and o
 | https://github.com/enggabhishek/Out-of-Pattern-Detection | Python-based project using Jupyter environments and libraries for December 2022 HTTP log analysis on DocDigitizer site, emphasizing key components and technologies.  |
 </details>
 
+<details closed><summary>NYC-Taxi-Trip-Data-Analysis</summary>
+
+| Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---                                                                                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| https://github.com/enggabhishek/NYC-Taxi-Trip-Data-Analysis| I led the NYC Taxi Trip Data Analysis project, analyzing vast datasets with Python, Hadoop, PySpark, and Tableau. Through interactive dashboards, I highlighted high-tip zones, fee-generating areas, and surcharge-trip duration patterns, providing actionable insights. Using predictive modeling, I forecasted taxi fares based on trip details, facilitating informed decision-making and operational optimization for taxi services while understanding market trends.  |
+</details>
+
 <details closed><summary>R Scripts Overview</summary>
 
 | Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
