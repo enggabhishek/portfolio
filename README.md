@@ -49,6 +49,13 @@ The repositories dedicated to Data Analytics projects using the R language and o
 
 ## 🧩 Project_Modules
 
+<details closed><summary>IPEDS LLM</summary>
+
+| Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---                                                                                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| https://github.com/enggabhishek/ipedsllm | Enhanced Text-to-SQL problem by leveraging Transformer architecture based on RAG pipeline in large language models (LLMs). Developed efficient and accurate Text-to-SQL infrastructure using Transformer-based LLMs, verified through rigorous testing. Deployed Langchain and LlamaIndex to create lightweight, scalable LLM applications for instant Information Retrieval and Academic Support.  |
+</details>
+
 <details closed><summary>VirtualClassroom</summary>
 
 | Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
@@ -76,15 +83,6 @@ The repositories dedicated to Data Analytics projects using the R language and o
 | Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---                                                                                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | https://github.com/enggabhishek/Out-of-Pattern-Detection | Python-based project using Jupyter environments and libraries for December 2022 HTTP log analysis on DocDigitizer site, emphasizing key components and technologies.  |
-</details>
-
-
-
-<details closed><summary>IPEDS LLM</summary>
-
-| Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ---                                                                                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| https://github.com/enggabhishek/ipedsllm | Enhanced Text-to-SQL problem by leveraging Transformer architecture based on RAG pipeline in large language models (LLMs). Developed efficient and accurate Text-to-SQL infrastructure using Transformer-based LLMs, verified through rigorous testing. Deployed Langchain and LlamaIndex to create lightweight, scalable LLM applications for instant Information Retrieval and Academic Support.  |
 </details>
 
 
