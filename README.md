@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
 </p>
 <p align="center">
-    <h1 align="center">Data Engineer/ Machine Learning Engineer</h1>
+    <h1 align="center">Data Scientist/ Data Engineer/ Machine Learning Engineer/ Senior Software Engineer</h1>
 </p>
 <p align="center">
     <em>Passionate Data Engineer & Machine Learning Engineer with a Master's in Analytics from Northeastern. Proficient in Python, Java, ML, led impactful teams at PowerSchool, certified problem solver.</em>
