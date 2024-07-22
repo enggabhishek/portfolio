@@ -29,6 +29,7 @@
 	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://download.logo.wine/logo/Eclipse_(software)/Eclipse_(software)-Logo.wine.png" width="80" height="40"alt="Eclipse">
+	<img src="https://iconduck.com/icons/93942/airflow?shared" width="80" height="40"alt="Airflow">
 </p>
 <hr>
 
