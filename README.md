@@ -26,7 +26,6 @@
 	<img src="https://miro.medium.com/v2/resize:fit:750/format:webp/0*epnKnkKuLx2RAajt" width="120" height="40" alt="PostgreSQL" style= "background-color: white;">
 	<img src="https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png" width="30" height="40" alt="SQL-Server">
 	<br>
-	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Apache_kafka.svg" width="40" height="85"alt="Kafka">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://download.logo.wine/logo/Eclipse_(software)/Eclipse_(software)-Logo.wine.png" width="80" height="40"alt="Eclipse">
