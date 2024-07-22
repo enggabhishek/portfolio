@@ -27,11 +27,11 @@
 	<img src="https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png" width="30" height="40" alt="SQL-Server">
 	<br>
 	<img alt="Visual Studio Code" src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/openinvisualstudiocode/1.4.58/1698165477219/Microsoft.VisualStudio.Services.Icons.Default" width="20" height="20">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" width="80" height="40"alt="Kafka">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Apache_kafka.svg" width="40" height="85"alt="Kafka">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://download.logo.wine/logo/Eclipse_(software)/Eclipse_(software)-Logo.wine.png" width="80" height="40"alt="Eclipse">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" width="80" height="40"alt="Airflow">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" width="80" height="40"alt="Elastic">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg" width="80" height="40"alt="Elastic">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40" height="60"alt="Azure">
 </p>
 <hr>
