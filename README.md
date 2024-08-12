@@ -87,11 +87,11 @@ The repositories dedicated to Data Analytics projects using the R language and o
 |https://github.com/enggabhishek/Analytics | Projects cover Chi-Square ANOVA, Linear Regression with fish and housing datasets, Hypothesis Testing on education/sleep, and Netflix data with Regularization Techniques. |
 </details>
 
-<details closed><summary>Data Science</summary>
+<details closed><summary>Boston Housing</summary>
 
 | Location                                                                                                          | Summary                                                                                                                                                                                                                                                                                                                             |
 | ---                                                                                                           | ---                                                                                                                                                                                                                                                                                                                                 |
-| https://github.com/enggabhishek/Data-Science | Repository containing various Jupyter Notebook files related to data analytics and machine learning projects.  |
+| https://github.com/enggabhishek/Boston-Housing | This project analyzes Boston's real estate market using the Boston Assessment 2021 dataset (177,091 records, 63 columns). It employs various machine learning models to predict housing prices, with LightGBM achieving 80.87% accuracy. Key features were selected using VIF to reduce multicollinearity. The analysis aims to provide insights into factors influencing Boston's housing market. |
 
 </details>
 
