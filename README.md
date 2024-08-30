@@ -5,7 +5,7 @@
     <h1 align="center">Data Engineer| Data Scientist| Machine Learning Engineer| Data Analyst| AI Software Engineer </h1>
 </p>
 <p align="center">
-    <em>Passionate Data Engineer & Machine Learning Engineer with a Master's in Analytics from Northeastern. Proficient in Python, Java, ML, led impactful teams at PowerSchool, certified problem solver.</em>
+    <em>Passionate Data Science Engineer & Machine Learning Engineer with a Master's in Analytics from Northeastern. Proficient in Python, Java, ML, led impactful teams at PowerSchool, certified problem solver.</em>
 </p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
