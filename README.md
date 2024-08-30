@@ -73,6 +73,12 @@ The repositories dedicated to Data Analytics projects using the R language and o
 | https://github.com/enggabhishek/Message-Distribution-Analysis| Over the past two years, a medium-sized retail company has skillfully engaged customers through diverse communication channels, including emails, web push notifications, mobile alerts, and SMS. The project began with storing campaign and message data in Azure Data Lake, which was then extracted and transferred to Snowflake for data warehousing. The data was merged, filtered, and consolidated into a "message_extended" table. Using Power BI, the company visualized this data to gain insights. For predictive analysis, the data was cleaned, transformed, and balanced with SMOTE. Multiple machine learning models were evaluated, with Gradient Boosting performing the best in predicting customer engagement. This end-to-end data pipeline enabled data-driven decisions and enhanced customer interaction strategies. |
 </details>
 
+<details closed><summary>Glioma-Grade-Classification</summary>
+| Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
+| ---                                                                                                   | ---                                                                                                                                                                                                                                                                                                      |
+| https://github.com/enggabhishek/Glioma_Prediction                                                  | This project focused on developing predictive models for classifying Lower and High Grade Gliomas. Multiple models were created using both 90% and 50% of the available training data. To prevent overfitting, key predictor variables ('IDH1', 'Age', 'ATRX', 'CIC') were selected through correlation analysis. The study compared the performance of classical and quantum machine learning models, evaluating them based on accuracy, confusion matrix, and Area Under the Curve (AUC). The Pegasos Quantum Support Vector Classifier (Pegasos QSVC) emerged as the top performer, achieving the highest accuracy of 86.1% and an AUC of 0.8671, surpassing the results of classical models.. |
+</details>
+
 <details closed><summary>NYC-Taxi-Trip-Data-Analysis</summary>
 
 | Location                                                                                           | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -84,7 +90,7 @@ The repositories dedicated to Data Analytics projects using the R language and o
 
 | Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
 | ---                                                                                                   | ---                                                                                                                                                                                                                                                                                                      |
-|https://github.com/enggabhishek/Analytics | Projects cover Chi-Square ANOVA, Linear Regression with fish and housing datasets, Hypothesis Testing on education/sleep, and Netflix data with Regularization Techniques. |
+|https://github.com/enggabhishek/Analytics | Projects cover Chi-Square ANOVA, Linear Regression with fish datasets, Hypothesis Testing on education/sleep, and Netflix data with Regularization Techniques. |
 </details>
 
 <details closed><summary>Boston Housing</summary>
@@ -94,16 +100,6 @@ The repositories dedicated to Data Analytics projects using the R language and o
 | https://github.com/enggabhishek/Boston-Housing | This project analyzes Boston's real estate market using the Boston Assessment 2021 dataset (177,091 records, 63 columns). It employs various machine learning models to predict housing prices, with LightGBM achieving 80.87% accuracy. Key features were selected using VIF to reduce multicollinearity. The analysis aims to provide insights into factors influencing Boston's housing market. |
 
 </details>
-
-<details closed><summary>VirtualClassroom</summary>
-
-| Location                                                                                                  | Summary                                                                                                                                                                                                                                                                                                  |
-| ---                                                                                                   | ---                                                                                                                                                                                                                                                                                                      |
-| https://github.com/enggabhishek/VirtualClassroom                                                    | The Virtual Classroom project employs a robust technological stack, featuring JAVA, J2EE, HTML, JSP, MySQL, Hibernate, and Spring. This comprehensive solution ensures a flexible and accessible learning environment, promoting dynamic student-teacher interactions. |
-</details>
-
-
-
 
 
 [**Return**](#-quick-links)
