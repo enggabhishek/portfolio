@@ -4,116 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAG with Logos</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         .node {
-            cursor: pointer;
-        }
-
-        .link {
-            fill: none;
-            stroke: #666;
+            stroke: #000;
             stroke-width: 2px;
         }
 
-        .logo {
-            width: 40px;
-            height: 40px;
+        .label {
+            font-size: 12px;
+            text-anchor: middle;
         }
     </style>
 </head>
 <body>
+    <svg id="dag" width="500" height="300">
+        <!-- Python Node -->
+        <g class="node" id="python" transform="translate(100, 150)">
+            <circle cx="0" cy="0" r="30" fill="#306998" />
+            <!-- Python SVG Logo Path -->
+            <path d="M -10 -10 L 0 -30 L 10 -10 L 0 0 Z" fill="#FFD43B" />
+            <text class="label" x="0" y="45" fill="#000">Python</text>
+        </g>
 
-<svg width="600" height="400"></svg>
+        <!-- Git Node -->
+        <g class="node" id="git" transform="translate(250, 50)">
+            <circle cx="0" cy="0" r="30" fill="#F05032" />
+            <!-- Git SVG Logo Path -->
+            <path d="M -10 -10 L 0 -30 L 10 -10 L 0 0 Z" fill="#FFF" />
+            <text class="label" x="0" y="45" fill="#000">Git</text>
+        </g>
 
-<script>
-    // Set up SVG canvas dimensions
-    const width = 600;
-    const height = 400;
+        <!-- TensorFlow Node -->
+        <g class="node" id="tensorflow" transform="translate(400, 150)">
+            <circle cx="0" cy="0" r="30" fill="#FF6F00" />
+            <!-- TensorFlow SVG Logo Path -->
+            <path d="M -10 -10 L 0 -30 L 10 -10 L 0 0 Z" fill="#FFF" />
+            <text class="label" x="0" y="45" fill="#000">TensorFlow</text>
+        </g>
 
-    // Sample data for nodes and links
-    const nodes = [
-        { id: 'Python', img: 'https://www.python.org/static/community_logos/python-logo.png' },
-        { id: 'Git', img: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' },
-        { id: 'hvPlot', img: 'https://hvplot.holoviz.org/_static/hvplot.png' }
-    ];
+        <!-- Edges -->
+        <!-- Python to Git -->
+        <line x1="130" y1="150" x2="220" y2="80" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+        <!-- Git to TensorFlow -->
+        <line x1="280" y1="50" x2="370" y2="150" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
 
-    const links = [
-        { source: 'Python', target: 'Git' },
-        { source: 'Git', target: 'hvPlot' }
-    ];
+        <!-- Arrow Marker Definition -->
+        <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#000" />
+            </marker>
+        </defs>
+    </svg>
 
-    // Create SVG element
-    const svg = d3.select('svg')
-        .attr('width', width)
-        .attr('height', height);
-
-    // Create a force simulation
-    const simulation = d3.forceSimulation(nodes)
-        .force('link', d3.forceLink(links).id(d => d.id).distance(150))
-        .force('charge', d3.forceManyBody().strength(-500))
-        .force('center', d3.forceCenter(width / 2, height / 2));
-
-    // Draw links (edges)
-    const link = svg.append('g')
-        .attr('class', 'links')
-        .selectAll('line')
-        .data(links)
-        .enter()
-        .append('line')
-        .attr('class', 'link');
-
-    // Draw nodes
-    const node = svg.append('g')
-        .attr('class', 'nodes')
-        .selectAll('image')
-        .data(nodes)
-        .enter()
-        .append('image')
-        .attr('xlink:href', d => d.img)
-        .attr('width', 60)
-        .attr('height', 60)
-        .attr('class', 'logo')
-        .call(drag(simulation));
-
-    // Add drag behavior
-    function drag(simulation) {
-        function dragStarted(event) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            event.subject.fx = event.subject.x;
-            event.subject.fy = event.subject.y;
-        }
-
-        function dragged(event) {
-            event.subject.fx = event.x;
-            event.subject.fy = event.y;
-        }
-
-        function dragEnded(event) {
-            if (!event.active) simulation.alphaTarget(0);
-            event.subject.fx = null;
-            event.subject.fy = null;
-        }
-
-        return d3.drag()
-            .on('start', dragStarted)
-            .on('drag', dragged)
-            .on('end', dragEnded);
-    }
-
-    // Update positions on each tick
-    simulation.on('tick', () => {
-        link
-            .attr('x1', d => d.source.x)
-            .attr('y1', d => d.source.y)
-            .attr('x2', d => d.target.x)
-            .attr('y2', d => d.target.y);
-
-        node
-            .attr('x', d => d.x - 30)  // Offset by half the image size
-            .attr('y', d => d.y - 30);
-    });
-</script>
-
+    <script>
+        // JavaScript to handle interactions or animations if needed
+    </script>
 </body>
 </html>
