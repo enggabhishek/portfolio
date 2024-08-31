@@ -2,62 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAG with Logos</title>
+    <title>Dynamic DAG with Logos</title>
     <style>
         .node {
-            stroke: #000;
-            stroke-width: 2px;
+            cursor: pointer;
+            transition: transform 0.2s;
         }
-
-        .label {
-            font-size: 12px;
-            text-anchor: middle;
+        .node:hover {
+            transform: scale(1.2);
+        }
+        .edge {
+            stroke: #999;
+            stroke-width: 2px;
+            fill: none;
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
         }
     </style>
 </head>
 <body>
-    <svg id="dag" width="500" height="300">
-        <!-- Python Node -->
-        <g class="node" id="python" transform="translate(100, 150)">
-            <circle cx="0" cy="0" r="30" fill="#306998" />
-            <!-- Python SVG Logo Path -->
-            <path d="M -10 -10 L 0 -30 L 10 -10 L 0 0 Z" fill="#FFD43B" />
-            <text class="label" x="0" y="45" fill="#000">Python</text>
-        </g>
 
-        <!-- Git Node -->
-        <g class="node" id="git" transform="translate(250, 50)">
-            <circle cx="0" cy="0" r="30" fill="#F05032" />
-            <!-- Git SVG Logo Path -->
-            <path d="M -10 -10 L 0 -30 L 10 -10 L 0 0 Z" fill="#FFF" />
-            <text class="label" x="0" y="45" fill="#000">Git</text>
-        </g>
+<svg id="dag" width="800" height="600"></svg>
 
-        <!-- TensorFlow Node -->
-        <g class="node" id="tensorflow" transform="translate(400, 150)">
-            <circle cx="0" cy="0" r="30" fill="#FF6F00" />
-            <!-- TensorFlow SVG Logo Path -->
-            <path d="M -10 -10 L 0 -30 L 10 -10 L 0 0 Z" fill="#FFF" />
-            <text class="label" x="0" y="45" fill="#000">TensorFlow</text>
-        </g>
+<script>
+// Data for nodes and edges of the DAG
+const nodes = [
+    { id: 'python', logo: 'python-logo.svg', x: 100, y: 100 },
+    { id: 'git', logo: 'git-logo.svg', x: 300, y: 200 },
+    { id: 'tensorflow', logo: 'tensorflow-logo.svg', x: 500, y: 100 }
+];
 
-        <!-- Edges -->
-        <!-- Python to Git -->
-        <line x1="130" y1="150" x2="220" y2="80" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
-        <!-- Git to TensorFlow -->
-        <line x1="280" y1="50" x2="370" y2="150" stroke="#000" stroke-width="2" marker-end="url(#arrow)" />
+const edges = [
+    { source: 'python', target: 'git' },
+    { source: 'git', target: 'tensorflow' }
+];
 
-        <!-- Arrow Marker Definition -->
-        <defs>
-            <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
-                <path d="M 0 0 L 10 5 L 0 10 z" fill="#000" />
-            </marker>
-        </defs>
-    </svg>
+function drawDAG(nodes, edges) {
+    const svg = document.getElementById('dag');
 
-    <script>
-        // JavaScript to handle interactions or animations if needed
-    </script>
+    // Draw edges
+    edges.forEach(edge => {
+        const sourceNode = nodes.find(node => node.id === edge.source);
+        const targetNode = nodes.find(node => node.id === edge.target);
+
+        if (sourceNode && targetNode) {
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', sourceNode.x);
+            line.setAttribute('y1', sourceNode.y);
+            line.setAttribute('x2', targetNode.x);
+            line.setAttribute('y2', targetNode.y);
+            line.setAttribute('class', 'edge');
+            svg.appendChild(line);
+        }
+    });
+
+    // Draw nodes
+    nodes.forEach(node => {
+        const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        g.setAttribute('class', 'node');
+        g.setAttribute('transform', `translate(${node.x}, ${node.y})`);
+
+        // Draw the circle
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', 0);
+        circle.setAttribute('cy', 0);
+        circle.setAttribute('r', 30);
+        circle.setAttribute('fill', '#fff');
+        circle.setAttribute('stroke', '#000');
+        g.appendChild(circle);
+
+        // Add the logo
+        const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+        image.setAttribute('href', node.logo);
+        image.setAttribute('x', -20);
+        image.setAttribute('y', -20);
+        image.setAttribute('width', 40);
+        image.setAttribute('height', 40);
+        image.setAttribute('class', 'logo');
+        g.appendChild(image);
+
+        svg.appendChild(g);
+    });
+}
+
+drawDAG(nodes, edges);
+</script>
+
 </body>
 </html>
