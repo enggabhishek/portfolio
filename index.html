@@ -2,93 +2,228 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dynamic DAG with Logos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Modules</title>
     <style>
-        .node {
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        p {
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #ddd;
+        }
+        .quick-links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .quick-links li {
+            margin-bottom: 10px;
+        }
+        .quick-links a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+        details {
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        summary {
+            font-weight: bold;
             cursor: pointer;
-            transition: transform 0.2s;
+            padding: 5px;
+            background-color: #eee;
+            border-radius: 4px;
         }
-        .node:hover {
-            transform: scale(1.2);
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
         }
-        .edge {
-            stroke: #999;
-            stroke-width: 2px;
-            fill: none;
+        table, th, td {
+            border: 1px solid #ddd;
         }
-        .logo {
-            width: 40px;
-            height: 40px;
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
         }
     </style>
 </head>
 <body>
+    <header>
+        <p>
+            <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="Project Icon"/>
+        </p>
+        <hr>
+        <h1>🔗 Quick Links</h1>
+        <ul class="quick-links">
+            <li><a href="#overview">📍 Overview</a></li>
+            <li><a href="#project-modules">🧩 Project Modules</a></li>
+        </ul>
+    </header>
 
-<svg id="dag" width="800" height="600"></svg>
+    <section id="overview">
+        <h2>📍 Overview</h2>
+        <p>
+            The repositories dedicated to Data Analytics projects using the R language and others focused on Data Science projects using Python language. Additionally, there are repositories that include crucial frameworks such as Spring, Hibernate, and testing tools to build a well-organized Java web project.
+        </p>
+    </section>
 
-<script>
-// Data for nodes and edges of the DAG
-const nodes = [
-    { id: 'python', logo: 'python-logo.svg', x: 100, y: 100 },
-    { id: 'git', logo: 'git-logo.svg', x: 300, y: 200 },
-    { id: 'tensorflow', logo: 'tensorflow-logo.svg', x: 500, y: 100 }
-];
+    <section id="project-modules">
+        <h2>🧩 Project Modules</h2>
 
-const edges = [
-    { source: 'python', target: 'git' },
-    { source: 'git', target: 'tensorflow' }
-];
+        <details>
+            <summary>IPEDS LLM</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/enggabhishek/ipedsllm" target="_blank">https://github.com/enggabhishek/ipedsllm</a></td>
+                        <td>Enhanced Text-to-SQL problem by leveraging Transformer architecture based on RAG pipeline in large language models (LLMs). Developed efficient and accurate Text-to-SQL infrastructure using Transformer-based LLMs, verified through rigorous testing. Deployed Langchain and LlamaIndex to create lightweight, scalable LLM applications for instant Information Retrieval and Academic Support.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
 
-function drawDAG(nodes, edges) {
-    const svg = document.getElementById('dag');
+        <details>
+            <summary>Out-of-Pattern-Detection</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/enggabhishek/Out-of-Pattern-Detection" target="_blank">https://github.com/enggabhishek/Out-of-Pattern-Detection</a></td>
+                        <td>Developed and deployed predictive models to detect anomalies in 16 GB of HTTP request log data, enhancing Docdigitizer's cybersecurity. Tasks included building Azure Data Lake Storage Gen2, setting up Managed Identities in Azure, configuring Apache Kafka Client, ElasticSearch Cloud for OLAP, and Apache Airflow DAG on the Astronomer platform. Additionally, data extraction, cleaning, feature engineering, and streaming to ElasticSearch Cloud were performed. Kibana dashboards were set up, along with creating Azure Function Apps and Data Factory Pipelines to trigger Airflow DAGs. GitHub Repository and Git Actions were established for CI/CD deployment. The models achieved 93% accuracy in load factor estimation and anomaly detection.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
 
-    // Draw edges
-    edges.forEach(edge => {
-        const sourceNode = nodes.find(node => node.id === edge.source);
-        const targetNode = nodes.find(node => node.id === edge.target);
+        <details>
+            <summary>Message-Distribution-Analysis</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/enggabhishek/Message-Distribution-Analysis" target="_blank">https://github.com/enggabhishek/Message-Distribution-Analysis</a></td>
+                        <td>Over the past two years, a medium-sized retail company has skillfully engaged customers through diverse communication channels, including emails, web push notifications, mobile alerts, and SMS. The project began with storing campaign and message data in Azure Data Lake, which was then extracted and transferred to Snowflake for data warehousing. The data was merged, filtered, and consolidated into a "message_extended" table. Using Power BI, the company visualized this data to gain insights. For predictive analysis, the data was cleaned, transformed, and balanced with SMOTE. Multiple machine learning models were evaluated, with Gradient Boosting performing the best in predicting customer engagement. This end-to-end data pipeline enabled data-driven decisions and enhanced customer interaction strategies.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
 
-        if (sourceNode && targetNode) {
-            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-            line.setAttribute('x1', sourceNode.x);
-            line.setAttribute('y1', sourceNode.y);
-            line.setAttribute('x2', targetNode.x);
-            line.setAttribute('y2', targetNode.y);
-            line.setAttribute('class', 'edge');
-            svg.appendChild(line);
-        }
-    });
+        <details>
+            <summary>Glioma-Grade-Classification</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/enggabhishek/Glioma_Prediction" target="_blank">https://github.com/enggabhishek/Glioma_Prediction</a></td>
+                        <td>This project focused on developing predictive models for classifying Lower and High Grade Gliomas. Multiple models were created using both 90% and 50% of the available training data. To prevent overfitting, key predictor variables ('IDH1', 'Age', 'ATRX', 'CIC') were selected through correlation analysis. The study compared the performance of classical and quantum machine learning models, evaluating them based on accuracy, confusion matrix, and Area Under the Curve (AUC). The Pegasos Quantum Support Vector Classifier (Pegasos QSVC) emerged as the top performer, achieving the highest accuracy of 86.1% and an AUC of 0.8671, surpassing the results of classical models.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
 
-    // Draw nodes
-    nodes.forEach(node => {
-        const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-        g.setAttribute('class', 'node');
-        g.setAttribute('transform', `translate(${node.x}, ${node.y})`);
+        <details>
+            <summary>NYC-Taxi-Trip-Data-Analysis</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/enggabhishek/NYC-Taxi-Trip-Data-Analysis" target="_blank">https://github.com/enggabhishek/NYC-Taxi-Trip-Data-Analysis</a></td>
+                        <td>Using Python, Hadoop, PySpark, and Tableau, massive datasets were methodically probed to uncover vital insights. Interactive dashboards revealed high-tipping zones, fee-generating areas, and surcharge-trip duration patterns, empowering stakeholders. Taxi fares were forecasted using predictive modeling approaches that took into account trip characteristics and temporal aspects. This technique made it easier to make educated decisions, optimize taxi services, and evaluate market trends.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
 
-        // Draw the circle
-        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        circle.setAttribute('cx', 0);
-        circle.setAttribute('cy', 0);
-        circle.setAttribute('r', 30);
-        circle.setAttribute('fill', '#fff');
-        circle.setAttribute('stroke', '#000');
-        g.appendChild(circle);
+        <details>
+            <summary>R Scripts Overview</summary>
+          
+            <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse;">
+              <thead>
+                <tr>
+                  <th style="background-color: #f2f2f2; text-align: left;">Location</th>
+                  <th style="background-color: #f2f2f2; text-align: left;">Summary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="https://github.com/enggabhishek/Analytics" target="_blank">https://github.com/enggabhishek/Analytics</a></td>
+                  <td>Projects cover Chi-Square ANOVA, Linear Regression with fish datasets, Hypothesis Testing on education/sleep, and Netflix data with Regularization Techniques.</td>
+                </tr>
+              </tbody>
+            </table>
+          
+          </details>
 
-        // Add the logo
-        const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-        image.setAttribute('href', node.logo);
-        image.setAttribute('x', -20);
-        image.setAttribute('y', -20);
-        image.setAttribute('width', 40);
-        image.setAttribute('height', 40);
-        image.setAttribute('class', 'logo');
-        g.appendChild(image);
-
-        svg.appendChild(g);
-    });
-}
-
-drawDAG(nodes, edges);
-</script>
-
-</body>
-</html>
+          <details>
+            <summary>Boston Housing</summary>
+          
+            <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse;">
+              <thead>
+                <tr>
+                  <th style="background-color: #f2f2f2; text-align: left;">Location</th>
+                  <th style="background-color: #f2f2f2; text-align: left;">Summary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="https://github.com/enggabhishek/Boston-Housing" target="_blank">https://github.com/enggabhishek/Boston-Housing</a></td>
+                  <td>This project analyzes Boston's real estate market using the Boston Assessment 2021 dataset (177,091 records, 63 columns). It employs various machine learning models to predict housing prices, with LightGBM achieving 80.87% accuracy. Key features were selected using VIF to reduce multicollinearity. The analysis aims to provide insights into factors influencing Boston's housing market.</td>
+                </tr>
+              </tbody>
+            </table>
+          
+          </details>
