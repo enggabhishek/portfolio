@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>NYC Trip Data Analysis</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Levaraged Technologies</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+            </li>
+            </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">NYC Trip Data Analysis</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">NYC Trip Data Analysis</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <h3>Introduction</h3>
+            <p>New York City (NYC) is one of the world's largest metropolises, and its public transportation system is among the busiest and most complex. Taxis play a critical role in providing fast and flexible transportation services, filling gaps that may not be accessible through the subway and bus systems.</p>
+            <p>In the taxi industry, understanding customer demand patterns, regional preferences, and factors influencing customer satisfaction (such as tipping) is crucial to optimizing operations and increasing profitability. Enhancing the profitability of taxi services by analyzing customer behavior and preferences is a complex challenge in today’s highly competitive digital landscape.</p>
+            <img src="src/nyc_taxi.png" height =400 width=500 alt="NYC Taxi" class="glightbox preview-link img-fluid services-img">
+
+        <h3>Objectives</h3>
+        <p>Our goal is to provide insights to stakeholders that can assist in strategy development and decision-making in the following areas:</p>
+        <p>Optimizing the distribution of the taxi fleet based on customer demand patterns, with the aim of improving operational cost efficiency.</p>
+        <p>Understanding and meeting customer preferences and needs to enhance customer loyalty and satisfaction.</p>
+        <p>Identifying and exploring revenue opportunities by adjusting pricing strategies, promotions, and additional services through regional and travel route analysis to maximize earnings.</p>
+        <p>Identifying the factors that encourage customers to show appreciation, such as tipping.</p>
+        
+
+        <h3>Key Areas of Analysis</h3>
+        <p>Variability in demand based on factors such as time, region, and customer preferences.</p>
+        <p>Income patterns tied to specific regions and travel routes.</p>
+        <p>The factors that influence the amount of tips received.</p>
+       
+        <img src="src/NYC_Dashboard.png" alt="NYC Dashboard 1" class="glightbox preview-link img-fluid services-img">
+        <img src="src/NYC_Dashboard2.png" alt="NYC Dashboard 2" class="glightbox preview-link img-fluid services-img">  
+
+        <h3>Conclusion and Impact</h3>
+        <p>Using predictor variables including PULocationID, DOLocationID, trip_miles, trip_time, weekday_num, and pickup_hour, I have forecasted the total_amount for taxi fares. The regression models evaluated encompassed <span class="highlight">Linear Regression</span>, <span class="highlight">Decision Tree</span>, <span class="highlight">AdaBoost Regressor</span>, <span class="highlight">Gradient Boosting Regressor</span>, and <span class="highlight">XGBoost Regressor</span>. Among these, the <span class="highlight">XGBoost Regressor</span> demonstrated superior performance, achieving an accuracy of <span class="highlight">88.9%</span> in predicting taxi fares while requiring minimal training time. This model's effectiveness is reflected in its <span class="highlight">R-squared</span> value of <span class="highlight">0.8893</span>, indicating a strong fit to the data and reliable predictive capability.</p>
+        <p>These goals are geared towards improving overall profitability and operational efficiency, while also ensuring that customer needs and preferences are met, resulting in higher customer satisfaction and loyalty.</p>
+        <img src="src/nyc_predictive.png" alt="NYC Dashboard 2" class="glightbox preview-link img-fluid services-img"> 
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright 2024.</span> <span>All Rights Reserved</span></p>
+      </div>
+      </div>
+    </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

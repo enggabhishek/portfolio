@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Out of Pattern Detection</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Levaraged Technologies</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+            </li>
+            </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Out of Pattern Detection</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Out of Pattern Detection</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <h3>Out of Pattern Detection in Cybersecurity Threat Analysis</h3>
+            <p>In this project, we developed and deployed predictive models to identify and flag anomalous patterns in 16 GB of HTTP request log data. This significantly enhanced Docdigitizer's cybersecurity threat detection capabilities, helping to protect sensitive data and maintain system integrity.</p>
+    
+            <h3>Project Impact and Importance</h3>
+            <p>This project was crucial in identifying potential cybersecurity threats in real-time by analyzing HTTP request patterns. The predictive models developed achieved an impressive 93% accuracy in anomaly detection, thereby improving the system's reliability and minimizing the risk of security breaches.</p>
+            <p>By utilizing a robust data pipeline with Apache Kafka, ElasticSearch, and Apache Airflow, we were able to efficiently handle and process large volumes of log data, allowing for scalable and real-time threat monitoring. The integration of various Azure services provided a seamless and automated workflow, ensuring quick and accurate detection of potential threats.</p>
+
+            <h3>Key Tasks and Implementation</h3>
+
+            <h4>Task 1: Build Blob Storage Based Azure Data Lake Storage Gen2</h4>
+            <img src="src/BlobStorageContainer.png" alt="Azure Blob Storage" class="glightbox preview-link img-fluid services-img">
+            <p>Azure Data Lake Storage Gen2 was used for storing massive amounts of HTTP request logs. This provided a highly secure and scalable environment for data storage.</p>
+
+            <h4>Task 2: Build Managed Identities in MS Azure</h4>
+            <p>Managed Identities were created to ensure secure access to resources without the need for explicit credentials, enhancing the overall security of the pipeline.</p>
+            
+            <h4>Task 3: Set up Apache Kafka Client</h4>
+            <p>Apache Kafka was set up for real-time data streaming. This allowed us to ingest large volumes of log data and seamlessly integrate with ElasticSearch for real-time analysis.</p>
+
+            <h4>Task 4: Set up ElasticSearch Cloud for OLAP</h4>
+            <p>ElasticSearch Cloud was used to store and analyze log data for Online Analytical Processing (OLAP), which enabled efficient querying and anomaly detection.</p>
+            
+            <h4>Task 5: Create Apache Airflow DAG on Astronomer Platform</h4>
+            <img src="src/Airflow_DAG.png" alt="Apache Airflow Pipeline" class="glightbox preview-link img-fluid services-img">
+            <p>An Apache Airflow DAG was created on the Astronomer platform to automate the workflow, from data extraction and transformation to ingestion into ElasticSearch via Apache Kafka.</p>
+            
+            <h4>Task 6: Set up Kibana for Building Dashboards on Elastic Cloud Platform</h4>
+            <img src="src/Kibana_Dashboard.png" alt="Kibana Dashboard" class="glightbox preview-link img-fluid services-img">
+            <img src="src/Kibana_Dashboard_2.png" alt="Kibana Dashboard" class="glightbox img-fluid services-img">
+            <p>Kibana was utilized for building interactive dashboards, allowing for visualization of HTTP request patterns over various time periods and aiding in anomaly detection.</p>
+
+            <h4>Task 7: Create MS Azure Function App</h4>
+            <img src="src/Azure_Function_App.png" alt="Azure Function App" class="glightbox preview-link img-fluid services-img">
+            <p>The Azure Function App was created to trigger events and automate parts of the data pipeline, ensuring timely execution of workflows.</p>
+
+            <h4>Task 8: Create Pipeline in MS Azure Data Factory for Triggering Apache Airflow DAG</h4>
+            <img src="src/StorageEventTriggerDataFactory.png" alt="Azure Data Factory Pipeline" class="glightbox preview-link img-fluid services-img">
+            <p>An Azure Data Factory Pipeline was set up to trigger the Apache Airflow DAG using storage events, further automating the workflow and enabling real-time processing of new log data.</p>
+
+            <h4>Predictive Analytics</h4>
+            <p>Exploratory Data Analysis (EDA) was performed on live-streamed data to identify patterns and outliers. The data was then exported from Kibana to CSV format, allowing for further predictive analysis.</p>
+            <p>Using machine learning models such as Logistic Regression, Decision Tree, and Random Forest, we achieved 93% accuracy in load factor estimation and anomaly detection, thereby enhancing the reliability of the system and reducing false-positive rates.</p>
+
+            <h4>Conclusion</h4>
+            <p>This project was successful in building a highly efficient and scalable data pipeline for cybersecurity threat detection. The integration of various cloud-based tools and platforms allowed for seamless data ingestion, transformation, analysis, and visualization, ultimately leading to a robust and reliable system for detecting anomalous patterns in HTTP request data.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright 2024.</span> <span>All Rights Reserved</span></p>
+      </div>
+      </div>
+    </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

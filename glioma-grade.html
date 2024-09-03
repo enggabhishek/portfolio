@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Glioma Grade Classification</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Levaraged Technologies</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+            </li>
+            </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Glioma Grade Classification</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Glioma Grade Classification</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <h3>Introduction</h3>
+            <p>Gliomas are the most common primary brain tumors, classified as either Lower-Grade Gliomas (LGG) or Glioblastoma Multiforme (GBM) based on histological and imaging criteria. Accurate and early classification of glioma grades is crucial for determining the appropriate treatment plan and improving patient outcomes. This project focuses on building predictive models for early detection of LGG using clinical and molecular features.</p>
+    
+            <h3>Objective and Data</h3>
+            <p>Our objective is to identify key variables that can effectively indicate early signs of Lower-Grade Glioma (LGG). We utilized data from the TCGA-LGG and TCGA-GBM projects, focusing on the 20 most frequently mutated genes and three clinical features. These variables were carefully selected through correlation analysis to avoid multicollinearity.</p>
+            <img src="src/glioma_corr.png" alt="Azure Blob Storage" class="glightbox preview-link img-fluid services-img">
+            <h3>Key Predictor Variables</h3>
+            <ol>
+              <li>
+                  <strong>IDH1</strong>
+                  <ul>
+                    <li><p> <b>What it is:</b> Isocitrate dehydrogenase 1 is an enzyme involved in cellular metabolism.</p></li>
+                    <li><p> <b>Why it matters:</b>  Mutations in the IDH1 gene are common in gliomas, particularly lower-grade astrocytomas. These mutations can lead to the accumulation of a harmful metabolite, which can influence tumor behavior.</p></li>
+                    <li><p> <b>Predictive value:</b> IDH1 mutations are generally associated with a better prognosis compared to gliomas without these mutations.</p></li>
+                  </ul>
+              </li>
+
+              <li>
+                <strong>Age</strong>
+                <ul>
+                  <li><p> <b>Why it matters:</b> Age is a significant risk factor for glioma development. Older individuals are more likely to develop gliomas.</p></li>
+                  <li><p> <b>Predictive value:</b> The age at diagnosis can provide clues about the type and grade of glioma. For example, younger patients are more likely to have certain types of gliomas, such as pilocytic astrocytomas.</p></li>
+                </ul>
+            </li>
+            <li>
+              <strong>ATRX</strong>
+              <ul>
+                <li><p> <b>What it is:</b> ATRX is a protein involved in chromatin remodeling, a process that regulates gene expression.</p></li>
+                <li><p> <b>Why it matters:</b>  Mutations in the ATRX gene are frequently found in gliomas, particularly oligodendrogliomas and glioblastomas.</p></li>
+                <li><p> <b>Predictive value:</b> ATRX mutations can be associated with a more aggressive tumor phenotype and a poorer prognosis.</p></li>
+              </ul>
+          </li>
+          <li>
+            <strong>CIC</strong>
+            <ul>
+              <li><p> <b>What it is:</b> CIC is a tumor suppressor gene involved in the regulation of cell growth and division.</p></li>
+              <li><p> <b>Why it matters:</b>  Mutations in the CIC gene are commonly found in oligodendrogliomas.</p></li>
+              <li><p> <b>Predictive value:</b> CIC mutations can be associated with a better prognosis compared to oligodendrogliomas without these mutations.</p></li>
+            </ul>
+        </li>
+
+            </ol>
+
+            <h4>Methodology</h4>
+            <p>We developed multiple machine learning models to classify glioma grades, including Logistic Regression, Random Forest, AdaBoost, Support Vector Classifier (SVC), and Pegasos Quantum SVC. The models were trained on different splits of the dataset (50% and 90%) to evaluate their robustness and generalizability. Hyperparameter tuning was performed to optimize model performance.</p>
+
+            <h4>Logistic Regression</h4>
+            <br>
+            <p><strong>Confusion Matrix</strong></p>
+            <ul>
+              <li> <ul>
+                <li><img src="src/lR_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/lR_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+              <br>
+              <p> <b>ROC Curve</b> </p> 
+              <li><ul>
+                <li><img src="src/lR_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/lR_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+            </ul>
+            
+            <h4>Random Forest</h4>
+            <br>
+            <p><strong>Confusion Matrix</strong></p>
+            <ul>
+              <li> <ul>
+                <li><img src="src/RF_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/RF_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+              <br>
+              <p> <b>ROC Curve</b> </p> 
+              <li><ul>
+                <li><img src="src/RF_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/RF_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+            </ul>
+            <h4>AdaBoost Classifier</h4>
+            <br>
+            <p><strong>Confusion Matrix</strong></p>
+            <ul>
+              <li> <ul>
+                <li><img src="src/AB_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/AB_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+              <br>
+              <p> <b>ROC Curve</b> </p> 
+              <li><ul>
+                <li><img src="src/AB_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/AB_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+            </ul>
+            <h4>Support Vector Classifier</h4>
+            <br>
+            <p><strong>Confusion Matrix</strong></p>
+            <ul>
+              <li> <ul>
+                <li><img src="src/SVM_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/SVM_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+              <br>
+              <p> <b>ROC Curve</b> </p> 
+              <li><ul>
+                <li><img src="src/SVM_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/SVM_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+            </ul>
+            <h4>Pegasos Quantum Support Vector Classifier</h4>
+            <br>
+            <p><strong>Confusion Matrix</strong></p>
+            <ul>
+              <li> <ul>
+                <li><img src="src/PQSVC_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/PQSVC_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+              <br>
+              <p> <b>ROC Curve</b> </p> 
+              <li><ul>
+                <li><img src="src/PegaosQSVC_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
+                <li><img src="src/PegaosQSVC_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul></li>
+            </ul>
+            <h3>Conclusion and Impact</h3>
+            <p>The Pegasos Quantum SVC model outperformed other models with an accuracy of 86.1% and an AUC of 0.8671, demonstrating its potential for robust classification of glioma grades. By integrating molecular and clinical features, the developed models can significantly aid in the early detection of LGG, potentially improving treatment strategies and patient prognosis. This project highlights the power of machine learning in healthcare and its potential to make a positive impact on patient outcomes.</p>
+           
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright 2024.</span> <span>All Rights Reserved</span></p>
+      </div>
+      </div>
+    </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

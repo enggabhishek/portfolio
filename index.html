@@ -1,229 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Modules</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header, section {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-        p {
-            text-align: center;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        hr {
-            border: none;
-            border-top: 2px solid #ddd;
-        }
-        .quick-links {
-            list-style-type: none;
-            padding: 0;
-        }
-        .quick-links li {
-            margin-bottom: 10px;
-        }
-        .quick-links a {
-            text-decoration: none;
-            color: #007BFF;
-        }
-        .quick-links a:hover {
-            text-decoration: underline;
-        }
-        details {
-            margin-bottom: 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 10px;
-        }
-        summary {
-            font-weight: bold;
-            cursor: pointer;
-            padding: 5px;
-            background-color: #eee;
-            border-radius: 4px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 10px 0;
-        }
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Abhishek Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!--Style  -->
+ 
 </head>
-<body>
-    <header>
-        <p>
-            <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="Project Icon"/>
-        </p>
-        <hr>
-        <h1>🔗 Quick Links</h1>
-        <ul class="quick-links">
-            <li><a href="#overview">📍 Overview</a></li>
-            <li><a href="#project-modules">🧩 Project Modules</a></li>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Levaraged Technologies</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </header>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-    <section id="overview">
-        <h2>📍 Overview</h2>
-        <p>
-            The repositories dedicated to Data Analytics projects using the R language and others focused on Data Science projects using Python language. Additionally, there are repositories that include crucial frameworks such as Spring, Hibernate, and testing tools to build a well-organized Java web project.
-        </p>
-    </section>
+    </div>
+  </header>
 
-    <section id="project-modules">
-        <h2>🧩 Project Modules</h2>
+  <main class="main">
 
-        <details>
-            <summary>IPEDS LLM</summary>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Location</th>
-                        <th>Summary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://github.com/enggabhishek/ipedsllm" target="_blank">https://github.com/enggabhishek/ipedsllm</a></td>
-                        <td>Enhanced Text-to-SQL problem by leveraging Transformer architecture based on RAG pipeline in large language models (LLMs). Developed efficient and accurate Text-to-SQL infrastructure using Transformer-based LLMs, verified through rigorous testing. Deployed Langchain and LlamaIndex to create lightweight, scalable LLM applications for instant Information Retrieval and Academic Support.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </details>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-        <details>
-            <summary>Out-of-Pattern-Detection</summary>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Location</th>
-                        <th>Summary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://github.com/enggabhishek/Out-of-Pattern-Detection" target="_blank">https://github.com/enggabhishek/Out-of-Pattern-Detection</a></td>
-                        <td>Developed and deployed predictive models to detect anomalies in 16 GB of HTTP request log data, enhancing Docdigitizer's cybersecurity. Tasks included building Azure Data Lake Storage Gen2, setting up Managed Identities in Azure, configuring Apache Kafka Client, ElasticSearch Cloud for OLAP, and Apache Airflow DAG on the Astronomer platform. Additionally, data extraction, cleaning, feature engineering, and streaming to ElasticSearch Cloud were performed. Kibana dashboards were set up, along with creating Azure Function Apps and Data Factory Pipelines to trigger Airflow DAGs. GitHub Repository and Git Actions were established for CI/CD deployment. The models achieved 93% accuracy in load factor estimation and anomaly detection.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </details>
+      <img src="src/CoverPhoto.jpg" alt="" data-aos="fade-in">
 
-        <details>
-            <summary>Message-Distribution-Analysis</summary>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Location</th>
-                        <th>Summary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://github.com/enggabhishek/Message-Distribution-Analysis" target="_blank">https://github.com/enggabhishek/Message-Distribution-Analysis</a></td>
-                        <td>Over the past two years, a medium-sized retail company has skillfully engaged customers through diverse communication channels, including emails, web push notifications, mobile alerts, and SMS. The project began with storing campaign and message data in Azure Data Lake, which was then extracted and transferred to Snowflake for data warehousing. The data was merged, filtered, and consolidated into a "message_extended" table. Using Power BI, the company visualized this data to gain insights. For predictive analysis, the data was cleaned, transformed, and balanced with SMOTE. Multiple machine learning models were evaluated, with Gradient Boosting performing the best in predicting customer engagement. This end-to-end data pipeline enabled data-driven decisions and enhanced customer interaction strategies.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </details>
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>I am Abhishek</h2>
+        <p><span class="typed" data-typed-items="Data Scientist, Data Engineer, Data Analyst, Machine Learning Engineer, AI Engineer"></span></p>
+      </div>
 
-        <details>
-            <summary>Glioma-Grade-Classification</summary>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Location</th>
-                        <th>Summary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://github.com/enggabhishek/Glioma_Prediction" target="_blank">https://github.com/enggabhishek/Glioma_Prediction</a></td>
-                        <td>This project focused on developing predictive models for classifying Lower and High Grade Gliomas. Multiple models were created using both 90% and 50% of the available training data. To prevent overfitting, key predictor variables ('IDH1', 'Age', 'ATRX', 'CIC') were selected through correlation analysis. The study compared the performance of classical and quantum machine learning models, evaluating them based on accuracy, confusion matrix, and Area Under the Curve (AUC). The Pegasos Quantum Support Vector Classifier (Pegasos QSVC) emerged as the top performer, achieving the highest accuracy of 86.1% and an AUC of 0.8671, surpassing the results of classical models.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </details>
+    </section><!-- /Hero Section -->
 
-        <details>
-            <summary>NYC-Taxi-Trip-Data-Analysis</summary>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Location</th>
-                        <th>Summary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://github.com/enggabhishek/NYC-Taxi-Trip-Data-Analysis" target="_blank">https://github.com/enggabhishek/NYC-Taxi-Trip-Data-Analysis</a></td>
-                        <td>Using Python, Hadoop, PySpark, and Tableau, massive datasets were methodically probed to uncover vital insights. Interactive dashboards revealed high-tipping zones, fee-generating areas, and surcharge-trip duration patterns, empowering stakeholders. Taxi fares were forecasted using predictive modeling approaches that took into account trip characteristics and temporal aspects. This technique made it easier to make educated decisions, optimize taxi services, and evaluate market trends.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </details>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-        <details>
-            <summary>R Scripts Overview</summary>
-          
-            <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse;">
-              <thead>
-                <tr>
-                  <th style="background-color: #f2f2f2; text-align: left;">Location</th>
-                  <th style="background-color: #f2f2f2; text-align: left;">Summary</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><a href="https://github.com/enggabhishek/Analytics" target="_blank">https://github.com/enggabhishek/Analytics</a></td>
-                  <td>Projects cover Chi-Square ANOVA, Linear Regression with fish datasets, Hypothesis Testing on education/sleep, and Netflix data with Regularization Techniques.</td>
-                </tr>
-              </tbody>
-            </table>
-          
-          </details>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-          <details>
-            <summary>Boston Housing</summary>
-          
-            <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse;">
-              <thead>
-                <tr>
-                  <th style="background-color: #f2f2f2; text-align: left;">Location</th>
-                  <th style="background-color: #f2f2f2; text-align: left;">Summary</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><a href="https://github.com/enggabhishek/Boston-Housing" target="_blank">https://github.com/enggabhishek/Boston-Housing</a></td>
-                  <td>This project analyzes Boston's real estate market using the Boston Assessment 2021 dataset (177,091 records, 63 columns). It employs various machine learning models to predict housing prices, with LightGBM achieving 80.87% accuracy. Key features were selected using VIF to reduce multicollinearity. The analysis aims to provide insights into factors influencing Boston's housing market.</td>
-                </tr>
-              </tbody>
-            </table>
-          
-          </details>
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="src/profile.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Abhishek</span></p>
+                <p><strong>Email: </strong> <span>abhishek.f@northeastern.edu</span></p>
+                <p><strong>Phone: </strong> <span>(603) 800-3041</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>Python</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>SQL</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>R</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JAVA</span> <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                As a data scientist with a robust software engineering background, I'm passionate about crafting scalable,
+                data-driven solutions that deliver significant business value. My expertise encompasses a wide range of data science disciplines,
+                including data engineering, machine learning, cloud computing, real-time processing and database management.
+                I excel in designing and implementing efficient data pipelines, leveraging tools like Databricks and Apache Airflow,
+                while also applying advanced machine learning algorithms to tackle real-world challenges. 
+                My proficiency extends to cloud platforms such as Azure and AWS, enabling me to build highly scalable solutions.
+                I'm particularly enthusiastic about developing real-time monitoring systems using cutting-edge technologies like Kafka and Elasticsearch,
+                and I possess a deep understanding of both SQL and NoSQL databases. Throughout my career, I've successfully applied these skills to diverse projects,
+                from enhancing educational data systems to optimizing urban transportation. My drive stems from the exciting challenge of transforming complex data into clear,
+                actionable insights that can profoundly impact businesses and communities alike.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <p><em>Seasoned AI/ML professional with 5+ years of experience, combining data science and software engineering expertise. Specializes in NLP-driven chatbots, big data warehousing, ETL automation, cloud-based AI/ML solutions, and technical team leadership. Proven ability to transform advanced AI/ML concepts into practical, high-impact applications across diverse industries.</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Masters in Analytics</h4>
+              <h6><b>Major Concentration:</b> Applied Machine Intelligence</h6>
+              <h5>2022 - 2024</h5>
+              <p><em>Northeastern University, Boston, MA</em></p>
+              <p><b>Courses:</b> Data Mining, Data Management & Big Data, Enterprise Analytics, Intermediate Analytics, Predictive Analytics, Fundamentals of AI, Applications of AI, AI System Technologies</p>
+              <p><b>GPA: </b>3.89</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Engineering in Computer Science</h4>
+              <h5>2013 - 2017</h5>
+              <p><em>Rajiv Gandhi Technical University (RGPV), Bhopal, India</em></p>
+              <p><b>GPA: </b>3.16</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Data Scientist</h4>
+              <h5>2024 - Present</h5>
+              <p><em>DataworksAI, Boston, MA </em></p>
+              <ul>
+                <li>Architected scalable microservices chatbot using PostgreSQL, MongoDB and containers for optimal performance.</li>
+                <li>Implemented user and conversation tracking using Redis in FastAPI backend for personalized, context-aware chat sessions. </li>
+                <li>Deployed chatbot on Red Hat OpenShift AI, utilizing Kubernetes for scaling, security and CI/CD integration.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Senior Software Engineer</h4>
+              <h5>2018 - 2022</h5>
+              <p><em>PowerSchool, LLC., Bengaluru, India</em></p>
+              <ul>
+                <li>Architected Databricks-based data warehouse, integrating student data from ADL, APIs, and AWS S3 using CRISP-DM methodology.</li>
+                <li>Automated ETL using RPA and Airflow for multiple portals, reducing project completion time by 25% with CI/CD Git Actions.</li>
+                <li>Implemented Azure SQL Server stored procedures (T-SQL) to log and analyze RPA project data, enhancing tracking capabilities.</li>
+                <li>Engineered real-time monitoring system (Kafka, Elasticsearch, Kibana, Tableau, Power BI), boosting efficiency 7%.</li>
+                <li>Forecasted monthly data migration requests with Scikit-learn and Looker, leading to a 6% improvement in efficiency.</li>
+                <li>Mentored 20+ new hires in problem-solving and automating ETL pipelines within Agile framework, using JIRA for tracking.</li>
+                <li>Engineered MySQL/Hibernate/Java web interface for Direct DB exports, boosting productivity 9% and empowering non-technical users.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Levaraged Technologies</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row">
+        <div class="service-item position-relative col-sm">
+        <div class= "col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <!-- Libraries/Frameworks -->
+        <div class="logo-container ">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" height =60 width=80/>
+          <img src="src/Qiskit.png" height =60 width=100/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" height =80 width=40/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" height =80 width=40/>
+          <img src="src/Streamlit.png" height =50 width=100/>
+          <img src="src/Langchain.jpg"height =50 width=100 />
+          <img src="src/Llamaindex.jpg" height =40 width=100 />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" height =60 width=80 />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" height =60 width=80 />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original.svg"height =40 width=40 />
+          </div>
+        </div>
+        </div>
+        <div class="service-item position-relative">
+          <div class= "col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <!-- Databases -->
+          <div class="logo-container">
+                    <img src="src/chroma.svg" height =40 width=100 />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" height =80 width=60/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" height =40 width=40/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"  height =80 width=60/>
+                    <img src="src/mysql.png" height =80 width=80/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" height =60 width=60/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height =100 width=60/>
+            </div>
+          </div>
+          </div>
+          <div class="service-item position-relative">
+            <div class= "col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <!-- Cloud Technologies -->
+            <div class="logo-container">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height =60 width=80/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" height =80 width=40/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original.svg" height =40 width=40/>
+              <img src="src/databricks.png" height =40 width=100/>
+              <img src="src/Snowflake_Logo.svg" height =40 width=100/>
+              <img src="src/Kafka.jpg" height =40 width=100/>
+              </div>
+            </div>
+            </div>
+            <div class="service-item position-relative">
+              <div class= "col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              <!-- Data Visualization/Analysis -->
+              <div class="logo-container">
+                <img src="src/Kibana.png" height =60 width=150/>
+                <img src="src/Tableau.png" height =60 width=120/>
+                <img src="src/Power_BI.png" height =60 width=150/>
+                <img src="src/elastic.png" height =60 width=120/>
+                <img src="src/hvPlot.png" height =70 width=50/>
+                <img src="src/bokeh.png" height =35 width=90/>
+                <img src="src/panel.png" height =70 width=50/>
+                <img src="src/Looker.svg" height =50 width=100/>
+                </div>
+              </div>
+              </div>
+              <div class="service-item position-relative">
+                <div class= "col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <!-- Languages/Web Technologies -->
+                <div class="logo-container">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height =50 width=50/>
+                  <img src="src/R_logo.svg" height =60 width=40/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" height =50 width=50/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height =50 width=50/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" height =100 width=40 />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height =50 width=50/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" height =100 width=50 />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" height =50 width=50/>
+                  <img src="src/Rest_API.png" height =50 width=80/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" height =100 width=50/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height =50 width=50/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" height =50 width=50/>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" height =50 width=50/>
+                  </div>
+                </div>
+                </div>
+          </div>
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section accent-background">
+
+      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="0" class="purecounter">8</span>
+              <p>Certifications</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="37" data-purecounter-duration="0" class="purecounter">37</span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="0" class="purecounter">7</span>
+              <p>Recognition</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="0" class="purecounter">2</span>
+              <p>Extra Curriculum Activities</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="src/AI_ChatBot.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>University Explorer: Chatbot</h4>
+                <p> <b>PostgreSQL | LLMs | MongoDB | StreamLit </b></p>
+                <a href="src/AI_ChatBot.jpeg" title="University Explorer: Chatbot" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/enggabhishek/ipedsllm" title="University Explorer: Chatbot"  class="github-link"><i class="bi bi-github"></i></a>
+                <a href="https://medium.com/@abhiemin/text-to-sql-implementation-for-legacy-databases-using-llm-and-mongodb-atlas-vector-search-with-a-717fef68e279" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="src/pattern-recognition.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Out of Pattern Detection</h4>
+                <p><b>Azure | Airflow | Kafka | ElasticSearch </b></p>
+                <a href="src/pattern-recognition.jpeg" title="Pattern Recognition" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/enggabhishek/Out-of-Pattern-Detection" title="Out of Pattern Recognition"  class="github-link"><i class="bi bi-github"></i></a>
+                <a href="pattern-detection.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="src/Glioma_Grade_Classification.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Glioma Grade Classification</h4>
+                <p> <b>Scikit-learn | Qiskit | Seaborn | Matplotlib</b></p>
+                <a href="src/Glioma_Grade_Classification.jpeg" title="Glioma Grade Classification1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/enggabhishek/Glioma_Prediction" title="Glioma Grade Classification"  class="github-link"><i class="bi bi-github"></i></a>
+                <a href="glioma-grade.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="src/Message_Dist_Analysis.jpg" title="Message Distribution Analysis" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Message Distribution Analysis</h4>
+                <p> <b>Snowflake | Azure | Power BI | Python</b></p>
+                <a href="src/Message_Dist_Analysis.jpg" title="Message Distribution Analysis" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/enggabhishek/Message-Distribution-Analysis" title="Message Distribution Analysis-GitHub"  class="github-link"><i class="bi bi-github"></i></a>
+                <a href="message-dist-analysis.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="src/nyc_taxi.jpeg" title="NYC Trip Data Analysis" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>NYC Trip Data Analysis</h4>
+                <p> <b>Pyspark | Scikit-learn | Tableau | Python</b></p>
+                <a href="src/nyc_taxi.jpeg" title="NYC Trip Data Analysis" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/enggabhishek/NYC-Taxi-Trip-Data-Analysis" title="NYC Trip Data Analysis-GitHub"  class="github-link"><i class="bi bi-github"></i></a>
+                <a href="nyc-trip-data-analysis.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="src/boston-housing.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Boston Housing Dataset</h4>
+                <p> <b>AWS(S3) | Bokeh | Panel | Scikit-learn | Python</b></p>
+                <a href="src/boston-housing.jpeg" title="Boston Housing Dataset" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/enggabhishek/Boston-Housing" title="Boston Housing Dataset-GitHub"  class="github-link"><i class="bi bi-github"></i></a>
+                <a href="boston-housing-dataset.html" title="Boston Housing Dataset" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-3">
+              <div class="info-item d-flex align-items-center">
+                <a href="https://github.com/enggabhishek"><i class="bi bi-github fs-1"></i></a>
+                <div>
+                  <h3>GitHub</h3>
+                  <a href="https://github.com/enggabhishek"></a>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-3">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 (603) 800-3041</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-3">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>abhishek.f@northeastern.edu</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="info-item d-flex align-items-center">
+                <a href="https://www.linkedin.com/in/fnu-a-a4440a75/"><i class="bi bi-linkedin fs-1"></i></a>
+                <div>
+                  <h3>LinkedIn</h3>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+  <footer id="footer" class="footer accent-background">
+  <div class="container">
+    <div class="copyright text-center ">
+      <p>© <span>Copyright 2024.</span> <span>All Rights Reserved</span></p>
+    </div>
+    </div>
+  </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
