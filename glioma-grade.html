@@ -118,88 +118,41 @@
             </ol>
 
             <h4>Methodology</h4>
-            <p>We developed multiple machine learning models to classify glioma grades, including Logistic Regression, Random Forest, AdaBoost, Support Vector Classifier (SVC), and Pegasos Quantum SVC. The models were trained on different splits of the dataset (50% and 90%) to evaluate their robustness and generalizability. Hyperparameter tuning was performed to optimize model performance.</p>
+            <p>We developed multiple machine learning models to classify glioma grades, including <span class="highlight">Logistic Regression</span>, <span class="highlight">Random Forest</span>, <span class="highlight">AdaBoost Classifier</span>, <span class="highlight">Support Vector Classifier (SVC)</span>, and Pegasos Quantum SVC</span>. The models were trained on different splits of the dataset (50% and 90%) to evaluate their robustness and generalizability. Hyperparameter tuning was performed to optimize model performance.</p>
 
-            <h4>Logistic Regression</h4>
+            <h5><strong>Confusion Matrix with 50% Training Dataset</strong></h5>
             <br>
-            <p><strong>Confusion Matrix</strong></p>
-            <ul>
-              <li> <ul>
-                <li><img src="src/lR_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/lR_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
+              <ul>
+                <li><img src="src/combined_con_mat_50.jpg" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul>
               <br>
-              <p> <b>ROC Curve</b> </p> 
-              <li><ul>
-                <li><img src="src/lR_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/lR_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
-            </ul>
-            
-            <h4>Random Forest</h4>
-            <br>
-            <p><strong>Confusion Matrix</strong></p>
-            <ul>
-              <li> <ul>
-                <li><img src="src/RF_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/RF_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
+            <h5><strong>ROC Curve with 50% Training Dataset</strong></h5> 
+              <ul>
+                <li><img src="src/combined_auc_roc_50.jpg" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul>
               <br>
-              <p> <b>ROC Curve</b> </p> 
-              <li><ul>
-                <li><img src="src/RF_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/RF_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
-            </ul>
-            <h4>AdaBoost Classifier</h4>
-            <br>
-            <p><strong>Confusion Matrix</strong></p>
-            <ul>
-              <li> <ul>
-                <li><img src="src/AB_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/AB_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
+            <h5><strong>Accuracy with 50% Training Dataset</strong></h5> 
+              <ul>
+                <li><img src="src/Accuracy50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+              </ul> 
+              <h5><strong>Confusion Matrix with 90% Training Dataset</strong></h5>
               <br>
-              <p> <b>ROC Curve</b> </p> 
-              <li><ul>
-                <li><img src="src/AB_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/AB_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
-            </ul>
-            <h4>Support Vector Classifier</h4>
-            <br>
-            <p><strong>Confusion Matrix</strong></p>
-            <ul>
-              <li> <ul>
-                <li><img src="src/SVM_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/SVM_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
-              <br>
-              <p> <b>ROC Curve</b> </p> 
-              <li><ul>
-                <li><img src="src/SVM_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/SVM_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
-            </ul>
-            <h4>Pegasos Quantum Support Vector Classifier</h4>
-            <br>
-            <p><strong>Confusion Matrix</strong></p>
-            <ul>
-              <li> <ul>
-                <li><img src="src/PQSVC_con_mat_90.png" alt="Confusion Matrix 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/PQSVC_con_mat_50.png" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
-              <br>
-              <p> <b>ROC Curve</b> </p> 
-              <li><ul>
-                <li><img src="src/PegaosQSVC_auc_roc_90.png" alt="ROC Curve 90%" class="glightbox preview-link img-fluid services-img"></li>
-                <li><img src="src/PegaosQSVC_auc_roc_50.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
-              </ul></li>
-            </ul>
+                <ul>
+                  <li><img src="src/combined_con_mat_90.jpg" alt="Confusion Matrix 50%" class="glightbox preview-link img-fluid services-img"></li>
+                </ul>
+                <br>
+              <h5><strong>ROC Curve with 90% Training Dataset</strong></h5> 
+                <ul>
+                  <li><img src="src/combined_auc_roc_90.jpg" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+                </ul>
+                <br>
+              <h5><strong>Accuracy with 90% Training Dataset</strong></h5> 
+                <ul>
+                  <li><img src="src/Accuracy90.png" alt="ROC Curve 50%" class="glightbox preview-link img-fluid services-img"></li>
+                </ul>
+
             <h3>Conclusion and Impact</h3>
             <p>The <span class="highlight">Pegasos Quantum SVC</span> model outperformed other models with an <span class="highlight">accuracy</span> of <span class="highlight">86.1%</span> and an <span class="highlight">AUC</span> of <span class="highlight">0.8671</span>, demonstrating its potential for robust classification of glioma grades. By integrating molecular and clinical features, the developed models can significantly aid in the early detection of LGG, potentially improving treatment strategies and patient prognosis. This project highlights the power of machine learning in healthcare and its potential to make a positive impact on patient outcomes.</p>
-            <img src="src/Accuracy90.png" alt="Accuracy 90%" class="glightbox preview-link img-fluid services-img">
-            <img src="src/Accuracy50.png" alt="Accuracy 50%" class="glightbox preview-link img-fluid services-img">
           </div>
 
         </div>
