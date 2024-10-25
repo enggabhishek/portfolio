@@ -87,52 +87,62 @@
             <img src="src/rash_image_cnn.png" alt="Viral Rash Classification" class="glightbox preview-link img-fluid services-img">
             
             <h3>Analysis</h3>
-            <h4>Loss</h4>
-            <img src="src/loss_curve_cnn.jpeg" alt="Loss Curve" class="glightbox preview-link img-fluid services-img"></li>
-            <h4>Accuracy</h4>
-            <img src="src/accuracy_cnn.jpg" alt="Accuracy" class="glightbox preview-link img-fluid services-img"></li>
+            <h4>Loss Curve</h4>
+            <img src="src/loss_curve_cnn_new.jpg" alt="Loss Curve" class="glightbox preview-link img-fluid services-img"></li>
+            <h4>Accuracy Curve</h4>
+            <img src="src/accuracy_cnn_new.jpg" alt="Accuracy" class="glightbox preview-link img-fluid services-img"></li>
+            <h4>Confusion Matrix</h4>
+            <img src="src/rash_confusion_matrix.jpg" alt="Confusion Matrix" class="glightbox preview-link img-fluid services-img"></li>
             <ol>
               <li>
-                  <strong>Custom CNN</strong>
+                  <strong>Custom-CNN</strong>
                   <ul>
-                    <li><p> <b>Best Train Accuracy:</b> 73.11%</p></li>
-                    <li><p> <b>Best Validation Accuracy:</b> 56.57%</p></li>
-                    <li><p> <b>Final Validation Loss:</b> 2.0372</p></li>
+                    <li><p> <b>Best Validation Accuracy:</b> 57.58%</p></li>
+                    <li><p> <b>Validation Loss:</b> 1.5858</p></li>
                   </ul>
               </li>
 
               <li>
-                <strong>Inception ResNet V2</strong>
+                <strong>Inception-ResNet-V2</strong>
                 <ul>
-                  <li><p> <b>Best Train Accuracy:</b> 98.35%</p></li>
-                  <li><p> <b>Best Validation Accuracy:</b> 90.91%</p></li>
-                  <li><p> <b>Final Validation Loss:</b> 0.5338</p></li>
+                  <li><p> <b>Best Validation Accuracy:</b> 92.93%</p></li>
+                  <li><p> <b>Validation Loss:</b> 0.2921</p></li>
                 </ul>
             </li>
             <li>
-              <strong>ResNet50</strong>
+              <strong>ResNet-50</strong>
               <ul>
-                <li><p> <b>Best Train Accuracy:</b> 99.79%</p></li>
-                <li><p> <b>Best Validation Accuracy:</b> 90.91%</p></li>
-                <li><p> <b>Final Validation Loss:</b> 0.4050</p></li>
+                <li><p> <b>Best Validation Accuracy:</b> 91.92%</p></li>
+                <li><p> <b>Validation Loss:</b> 0.3740</p></li>
               </ul>
           </li>
           <li>
             <strong>NesNet-A-Large</strong>
             <ul>
-              <li><p> <b>Best Train Accuracy:</b> 99.58%</p></li>
               <li><p> <b>Best Validation Accuracy:</b> 85.86%</p></li>
-              <li><p> <b>Final Validation Loss:</b>  0.8819</p></li>
+              <li><p> <b>Validation Loss:</b>  0.6669</p></li>
             </ul>
         </li>
+        </ol>
+        <h3>YOLO11 Classification</h3>
+        <h4>Confusion Matrix</h4>
+        <img src="src/YOLO_Confusion_Matrix.png" alt="YOLO11 Confusion Matrix" class="glightbox preview-link img-fluid services-img"></li>
+        <h4>Accuracy Curve/Loss Curve</h4>
+        <img src="src/YOLO_Accuracy.png" alt="Accuracy Curve & Loss Curve" class="glightbox preview-link img-fluid services-img"></li>
+        <ol start="5">
+          <li>
+          <strong>YOLO11N Classification</strong>
+          <ul>
+            <li><p> <b>Best Validation Accuracy:</b> 82.8%</p></li>
+            <li><p> <b>Validation Loss:</b>  0.7135</p></li>
+          </ul>
+      </li>
             </ol>
 
 
             <h3>Conclusion</h3>
-            <p>The <span class="highlight">ResNet50</span> and <span class="highlight">Inception ResNet V2 </span> performed the best overall, with <span class="highlight">ResNet50</span> slightly outperforming Inception ResNet V2 in terms of both validation accuracy and lower validation loss.</p>
-            <p><b>Balanced depth and architecture</b>: ResNet50 uses skip connections (residuals) to avoid vanishing gradient problems in deep networks, helping it generalize better.</p>
-            <p><b>Less overfitting</b>: Despite high training accuracy, the validation accuracy remained stable, showing that the model is well-regularized.</p>
-            <p>Inception ResNet V2 also performs well, but ResNet50’s lower final validation loss and stability make it the top performer here.</p>
+            <p>Based on the comparative analysis between <span class="highlight">Inception-ResNet-V2</span> with <span class="highlight">93.94%</span> accuracy and <span class="highlight">ResNet-50</span> models with <span class="highlight">91.92%</span> accuracy, <span class="highlight">ResNet-50</span> emerges as the more practical choice despite its slightly lower peak validation accuracy. ResNet-50 demonstrates superior efficiency with faster training times (~1-1.5 minutes per epoch vs 2-3 minutes), better generalization with less overfitting, and more stable validation metrics.</p>
+            <p>While Inception-ResNet-V2 achieves marginally higher peak accuracy, it suffers from more pronounced overfitting after Epoch 6 and shows unstable validation loss patterns. ResNet-50's simpler architecture requires fewer computational resources while maintaining competitive performance, making it the recommended model for most applications where the 2% accuracy difference isn't critical. Its combination of efficiency, stability, and strong performance makes it a more practical choice for real-world applications.</p>
           </div>
 
         </div>
